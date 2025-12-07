@@ -55,6 +55,33 @@ nav_order: 1
     </div>
   </div>
 
+  <div class="build-card">
+    <div class="build-image" style="background-image: url('{{ '/assets/img/breast.png' | relative_url }}');"></div>
+    <div class="build-content">
+      <h3>Breast Diagnostic</h3>
+      <p>FHIR Implementation Guide supporting breast diagnostics and structured clinical data.</p>
+      <div class="build-buttons">
+        <a href="https://build.fhir.org/ig/HL7LT/ig-lt-breast" target="_blank" class="build-link">
+          Latest Build
+        </a>
+        <a href="https://hl7.lt/fhir/breast/history.html" target="_blank" class="build-link secondary">
+          History
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="build-card">
+    <div class="build-image" style="background-image: url('{{ '/assets/img/lab.png' | relative_url }}');"></div>
+    <div class="build-content">
+      <h3>LT Lab</h3>
+      <p>FHIR profiles and resources for laboratory observations and results.</p>
+      <div class="build-buttons">
+        <a href="#" class="build-link disabled">Coming Soon</a>
+      </div>
+    </div>
+  </div>
+
 </div>
 
 <style>
