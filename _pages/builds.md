@@ -77,7 +77,12 @@ nav_order: 1
       <h3>LT Lab</h3>
       <p>FHIR profiles and resources for laboratory observations and results.</p>
       <div class="build-buttons">
-        <a href="#" class="build-link disabled">Coming Soon</a>
+        <a href="https://build.fhir.org/ig/HL7LT/ig-lt-lab/en/" target="_blank" class="build-link">
+          Latest Build
+        </a>
+        <a href="#" class="build-link secondary disabled">
+          History
+        </a>
       </div>
     </div>
   </div>
