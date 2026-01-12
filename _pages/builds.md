@@ -33,6 +33,22 @@ nav_order: 1
   </div>
 
   <div class="build-card">
+    <div class="build-image" style="background-image: url('{{ '/assets/img/lab.png' | relative_url }}');"></div>
+    <div class="build-content">
+      <h3>LT Lab</h3>
+      <p>FHIR profiles and resources for laboratory observations and results.</p>
+      <div class="build-buttons">
+        <a href="https://build.fhir.org/ig/HL7LT/ig-lt-lab/en/" target="_blank" class="build-link">
+          Latest Build
+        </a>
+        <a href="#" class="build-link secondary disabled">
+          History
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="build-card">
     <div class="build-image" style="background-image: url('{{ '/assets/img/lifestyle.png' | relative_url }}');"></div>
     <div class="build-content">
       <h3>Life Style</h3>
@@ -72,25 +88,9 @@ nav_order: 1
   </div>
 
   <div class="build-card">
-    <div class="build-image" style="background-image: url('{{ '/assets/img/lab.png' | relative_url }}');"></div>
-    <div class="build-content">
-      <h3>LT Lab</h3>
-      <p>FHIR profiles and resources for laboratory observations and results.</p>
-      <div class="build-buttons">
-        <a href="https://build.fhir.org/ig/HL7LT/ig-lt-lab/en/" target="_blank" class="build-link">
-          Latest Build
-        </a>
-        <a href="#" class="build-link secondary disabled">
-          History
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <div class="build-card">
     <div class="build-image" style="background-image: url('{{ '/assets/img/prostate.png' | relative_url }}');"></div>
     <div class="build-content">
-      <h3>Prostate</h3>
+      <h3>Prostate Cancer</h3>
       <p>FHIR Implementation Guide supporting prostate diagnostics and structured clinical data.</p>
       <div class="build-buttons">
         <a href="#" class="build-link disabled">Coming Soon</a>
@@ -98,6 +98,38 @@ nav_order: 1
     </div>
   </div>
 
+  <div class="build-card">
+    <div class="build-image" style="background-image: url('{{ '/assets/img/lungs.png' | relative_url }}');"></div>
+    <div class="build-content">
+      <h3>Lung Cancer</h3>
+      <p>FHIR Implementation Guide for structured lung cancer diagnostics and care pathways.</p>
+      <div class="build-buttons">
+        <a href="#" class="build-link disabled">Coming Soon</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="build-card">
+    <div class="build-image" style="background-image: url('{{ '/assets/img/cervical.png' | relative_url }}');"></div>
+    <div class="build-content">
+      <h3>Cervical Cancer</h3>
+      <p>FHIR profiles supporting cervical cancer screening and diagnostic workflows.</p>
+      <div class="build-buttons">
+        <a href="#" class="build-link disabled">Coming Soon</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="build-card">
+    <div class="build-image" style="background-image: url('{{ '/assets/img/colorectal.png' | relative_url }}');"></div>
+    <div class="build-content">
+      <h3>Colorectal Cancer</h3>
+      <p>FHIR Implementation Guide for colorectal cancer screening, diagnostics, and reporting.</p>
+      <div class="build-buttons">
+        <a href="#" class="build-link disabled">Coming Soon</a>
+      </div>
+    </div>
+  </div>
 
 </div>
 
