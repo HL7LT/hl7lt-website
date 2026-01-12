@@ -87,6 +87,18 @@ nav_order: 1
     </div>
   </div>
 
+  <div class="build-card">
+    <div class="build-image" style="background-image: url('{{ '/assets/img/prostate.png' | relative_url }}');"></div>
+    <div class="build-content">
+      <h3>Prostate</h3>
+      <p>FHIR Implementation Guide supporting prostate diagnostics and structured clinical data.</p>
+      <div class="build-buttons">
+        <a href="#" class="build-link disabled">Coming Soon</a>
+      </div>
+    </div>
+  </div>
+
+
 </div>
 
 <style>
