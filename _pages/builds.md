@@ -87,16 +87,25 @@ nav_order: 1
     </div>
   </div>
 
-  <div class="build-card">
-    <div class="build-image" style="background-image: url('{{ '/assets/img/prostate.png' | relative_url }}');"></div>
-    <div class="build-content">
-      <h3>Prostate Cancer</h3>
-      <p>FHIR Implementation Guide supporting prostate diagnostics and structured clinical data.</p>
-      <div class="build-buttons">
-        <a href="#" class="build-link disabled">Coming Soon</a>
-      </div>
+<div class="build-card">
+  <div class="build-image" style="background-image: url('{{ '/assets/img/prostate.png' | relative_url }}');"></div>
+  <div class="build-content">
+    <h3>Prostate Cancer</h3>
+    <p>FHIR Implementation Guide supporting prostate diagnostics and structured clinical data.</p>
+    <div class="build-buttons">
+      <a href="https://build.fhir.org/ig/HL7LT/ig-lt-prostate" target="_blank" class="build-link">
+        Latest Build
+      </a>
+      <!-- Add history later when available -->
+      <!--
+      <a href="https://hl7.lt/fhir/prostate/history.html" target="_blank" class="build-link secondary">
+        History
+      </a>
+      -->
     </div>
   </div>
+</div>
+
 
   <div class="build-card">
     <div class="build-image" style="background-image: url('{{ '/assets/img/lungs.png' | relative_url }}');"></div>
