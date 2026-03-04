@@ -147,7 +147,7 @@ nav_order: 1
 </div>
 
 <div class="build-card">
-  <div class="build-image" style="background-image: url('{{ '/assets/img/prostate.png' | relative_url }}');"></div>
+  <div class="build-image" style="background-image: url('{{ '/assets/img/eu.png' | relative_url }}');"></div>
   <div class="build-content">
     <h3>European Profiles</h3>
     <p>Copy of European unpublished profiles.</p>
