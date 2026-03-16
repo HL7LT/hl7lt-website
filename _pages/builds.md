@@ -60,16 +60,18 @@ nav_order: 1
     </div>
   </div>
 
-  <div class="build-card">
-    <div class="build-image" style="background-image: url('{{ '/assets/img/screening.png' | relative_url }}');"></div>
-    <div class="build-content">
-      <h3>Screening</h3>
-      <p>Implementation Guide for preventive healthcare and immunization tracking.</p>
-      <div class="build-buttons">
-        <a href="#" class="build-link disabled">Coming Soon</a>
-      </div>
+<div class="build-card">
+  <div class="build-image" style="background-image: url('{{ '/assets/img/cvd.png' | relative_url }}');"></div>
+  <div class="build-content">
+    <h3>CVD</h3>
+    <p>FHIR Implementation Guide for cardiovascular risk assessment, screening, care planning, and related structured clinical data.</p>
+    <div class="build-buttons">
+      <a href="https://build.fhir.org/ig/HL7LT/ig-lt-cvd" target="_blank" class="build-link">
+        Latest Build
+      </a>
     </div>
   </div>
+</div>
 
   <div class="build-card">
     <div class="build-image" style="background-image: url('{{ '/assets/img/breast.png' | relative_url }}');"></div>
@@ -152,7 +154,7 @@ nav_order: 1
     <h3>European Profiles</h3>
     <p>Copy of European unpublished profiles.</p>
     <div class="build-buttons">
-      <a href="https://build.fhir.org/ig/HL7LT/ig-lt-eu" target="_blank" class="build-link">
+      <a href="https://build.fhir.org/ig/HL7LT/ig-eu-ehds" target="_blank" class="build-link">
         Latest Build
       </a>
     </div>
