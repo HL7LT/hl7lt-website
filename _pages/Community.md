@@ -20,10 +20,10 @@ nav_order: 4
 <div class="mission-box">
   <p>To support the adoption and implementation of HL7 FHIR® standards in Lithuania through:</p>
   <ul>
-    <li>🧩 Open collaboration and transparent publication</li>
-    <li>📘 National FHIR Implementation Guides</li>
-    <li>🌍 Alignment with European interoperability initiatives</li>
-    <li>🎓 Knowledge sharing and education</li>
+    <li> Open collaboration and transparent publication</li>
+    <li> National FHIR Implementation Guides</li>
+    <li> Alignment with European interoperability initiatives</li>
+    <li> Knowledge sharing and education</li>
   </ul>
 </div>
 
@@ -71,7 +71,7 @@ nav_order: 4
 
 ---
 
-## 📞 Contact
+## Contact
 
 **Email:** [info@hl7.lt](mailto:info@hl7.lt)  
 **GitHub:** [github.com/HL7LT](https://github.com/HL7LT)  
