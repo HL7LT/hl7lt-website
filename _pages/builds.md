@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /builds-home/
+permalink: /builds/
 title: "Builds"
 nav: true
 nav_order: 1
@@ -35,8 +35,8 @@ nav_order: 1
   <div class="build-card">
     <div class="build-image" style="background-image: url('{{ '/assets/img/lab.png' | relative_url }}');"></div>
     <div class="build-content">
-      <h3>LT Lab</h3>
-      <p>FHIR profiles and resources for laboratory observations and results.</p>
+      <h3>LT Pathology Lab</h3>
+      <p>FHIR profiles and resources for pathology and lab observations and results.</p>
       <div class="build-buttons">
         <a href="https://build.fhir.org/ig/HL7LT/ig-lt-lab/en/" target="_blank" class="build-link">
           Latest Build
