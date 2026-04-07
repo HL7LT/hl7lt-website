@@ -32,7 +32,7 @@ It provides a transparent and open platform to support the adoption of FHIR® st
   <div class="home-section">
     <h3>Implementation Guides</h3>
     <p>Access all national HL7 FHIR® Implementation Guides, including LT Base and specialized guides for clinical domains.</p>
-    <a href="{{ site.baseurl }}/builds-home/" class="home-button">Go to Builds</a>
+    <a href="{{ site.baseurl }}/builds/" class="home-button">Go to Builds</a>
   </div>
 
   <div class="home-section">
