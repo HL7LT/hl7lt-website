@@ -14,9 +14,9 @@ These terminology resources ensure **semantic consistency** and **interoperabili
   <div class="term-card">
     <div class="term-image" style="background-image: url('{{ '/assets/img/termservice.png' | relative_url }}');"></div>
     <div class="term-content">
-      <h3>Terminology Services</h3>
+      <h3>Terminology eXplorer</h3>
       <p>API-based access to Lithuanian FHIR terminology resources and validation tools.</p>
-      <a href="https://htx.hl7.lt" class="term-link" target="_blank">Open Service</a>
+      <a href="https://tx.hl7.lt" class="term-link" target="_blank">Open Service</a>
     </div>
   </div>
 
