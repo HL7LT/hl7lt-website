@@ -1,0 +1,15 @@
+{
+  "code": "hl7lt",
+  "names": {
+    "en": "HL7 Lithuania Registry",
+    "lt": "HL7 Lietuvos registras"
+  },
+  "description": {
+    "en": "National HL7® FHIR® Implementation Guide Registry for Lithuania",
+    "lt": "Nacionalinis HL7® FHIR® diegimo vadovų registras Lietuvai"
+  },
+  "defaultLang": "en",
+  "langs": ["en", "lt"],
+  "siteUrl": "https://hl7.lt",
+  "web": "https://tx.hl7.lt"
+}

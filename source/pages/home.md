@@ -2,16 +2,15 @@
 
 National HL7® FHIR® Implementation Guide Registry for Lithuania
 
+<img src="/attachments/img/lt-heather.png" alt="HL7 Lithuania" class="hl7lt-hero-img">
+
 ## Welcome to the HL7 Lithuania Registry
 
-<img src="/.gitbook/assets/lt-heather.png" alt="HL7 Lithuania" class="hl7lt-hero-img">
+The **HL7 Lithuania Registry** is the national hub for HL7® FHIR® Implementation Guides, terminology resources, and community collaboration.
 
-The **HL7 Lithuania Registry** is the national hub for HL7® FHIR® Implementation
-Guides, terminology resources, and community collaboration.
+It provides a transparent and open platform to support the adoption of FHIR® standards in Lithuanian healthcare — enabling interoperability, data quality, and innovation.
 
-It provides a transparent and open platform to support the adoption of FHIR®
-standards in Lithuanian healthcare — enabling interoperability, data quality, and
-innovation.
+---
 
 ## Explore the Registry
 
@@ -30,12 +29,10 @@ innovation.
 
 ## About This Registry
 
-All HL7 Lithuania Implementation Guides follow consistent and reusable publishing
-principles:
+All HL7 Lithuania Implementation Guides follow consistent and reusable publishing principles:
 
 - **Package ID:** `lt.hl7.fhir.IGCODE`
 - **Canonical URL:** `https://hl7.lt/fhir/IGCODE`
 - **Publication:** automated via the [HL7 auto-IG builder](https://github.com/FHIR/auto-ig-builder)
 
-All builds and resources are maintained openly through the
-[HL7LT GitHub organization](https://github.com/HL7LT).
+All builds and resources are maintained openly through the [HL7LT GitHub organization](https://github.com/HL7LT).
