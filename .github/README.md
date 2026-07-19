@@ -3,7 +3,7 @@
 Source for **[hl7.lt](https://hl7.lt)** — the national hub for HL7® FHIR®
 Implementation Guides, terminology resources, and community collaboration for Lithuania.
 
-The site is generated from Markdown with **[mdbook](https://github.com/igorboss/mdbook)**
+The site is generated from Markdown with **[mdbook](https://github.com/helex-solutions/mdbook)**
 (a VitePress-based static-site generator) and published to GitHub Pages.
 
 ## Content (TermX format)
@@ -36,17 +36,17 @@ Requires Node ≥ 20.
 
 ```bash
 # live-reload dev server
-npx github:igorboss/mdbook dev --project .
+npx github:helex-solutions/mdbook dev --project .
 
 # one-off build to .mdbook/dist
-npx github:igorboss/mdbook build --project .
+npx github:helex-solutions/mdbook build --project .
 ```
 
 ## Deployment
 
 Every push to `main` runs [`.github/workflows/mdbook.yml`](workflows/mdbook.yml), which
 builds the site and deploys it to GitHub Pages. The workflow pins a released mdbook
-version (e.g. `igorboss/mdbook@v1.1.0`).
+version (e.g. `helex-solutions/mdbook@v1.1.0`).
 
 > ⚠️ **Do not add a `CNAME` file or set a Pages custom domain.**
 > `hl7.lt` is served by a **reverse proxy** that pulls from the GitHub Pages origin
@@ -61,7 +61,7 @@ callout blockquotes (`> … {.is-info}`), and more. To add a page: create
 `source/pages/<slug>.md` for each language, add a node to
 [`source/pages.json`](../source/pages.json) with its per-language `contents`, and (for a
 new top-level menu entry) update `nav`/`locales` in the config. See the
-[mdbook documentation](https://github.com/igorboss/mdbook) for the full syntax.
+[mdbook documentation](https://github.com/helex-solutions/mdbook) for the full syntax.
 
 ## License
 
