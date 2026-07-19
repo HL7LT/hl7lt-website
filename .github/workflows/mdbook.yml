@@ -22,9 +22,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - id: mdbook
-        # Pin to the mdbook release tag once v1.1.0 is published; tracks the
-        # feature branch until then.
-        uses: igorboss/mdbook@feature/wiki-mdbook-compat
+        # Pinned to a mdbook release tag for deterministic builds.
+        uses: igorboss/mdbook@v1.1.0
         with:
           project: .
       - uses: actions/configure-pages@v5
