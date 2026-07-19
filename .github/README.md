@@ -6,25 +6,29 @@ Implementation Guides, terminology resources, and community collaboration for Li
 The site is generated from Markdown with **[mdbook](https://github.com/igorboss/mdbook)**
 (a VitePress-based static-site generator) and published to GitHub Pages.
 
-## Pages
+## Content (TermX format)
 
-Content lives under [`source/`](../source) (set via `source.root` in the config):
+The site uses mdbook's **TermX** layout under [`source/`](../source):
 
-| File | Route | Purpose |
+- [`source/space.json`](../source/space.json) — space metadata (names, languages, default lang, site URL).
+- [`source/pages.json`](../source/pages.json) — the page tree; each page lists one `contents` entry per language (`name`, `slug`, `lang`).
+- `source/pages/<slug>.md` — page markdown, **one file per language content** (each language has its own slug).
+- `source/attachments/img/` — images, referenced as `/attachments/img/<file>`.
+
+| Page | EN slug → route | LT slug → route |
 |---|---|---|
-| `source/README.md` | `/` | Home |
-| `source/build.md` | `/build` | FHIR Implementation Guide builds |
-| `source/terminology.md` | `/terminology` | Code systems, value sets, concept maps |
-| `source/community.md` | `/community` | Community & how to contribute |
-| `source/lt/*.md` | `/lt/…` | Lithuanian translations |
+| Home | `home` → `/` | `pradzia` → `/lt/` |
+| Builds | `build` → `/build` | `versijos` → `/lt/versijos` |
+| Terminology | `terminology` → `/terminology` | `terminologija` → `/lt/terminologija` |
+| Community | `community` → `/community` | `bendruomene` → `/lt/bendruomene` |
 
-Images live in `source/.gitbook/assets/`; site configuration (title, nav, footer,
-theme, locales) is in [`.mdbook/config.yml`](../.mdbook/config.yml).
+Site configuration (title, nav, footer, theme, per-locale menu) is in
+[`.mdbook/config.yml`](../.mdbook/config.yml).
 
-> **Note:** the site home (`/`) is `source/README.md` — mdbook's GitBook format uses the
-> `README.md` at the source root as the landing page (the default locale lives at the
-> root, other locales under `source/<lang>/`). *This* file (`.github/README.md`) is the
-> repository's README and is **not** part of the published site.
+> **Note:** TermX uses a distinct slug per language, so Lithuanian routes are localized
+> (`/lt/versijos`, not `/lt/build`). Prose uses `breaks: true` (single newline → `<br>`),
+> so keep each paragraph on one line. *This* file (`.github/README.md`) is the repository's
+> README and is **not** part of the published site.
 
 ## Local development
 
@@ -53,9 +57,10 @@ version (e.g. `igorboss/mdbook@v1.1.0`).
 ## Editing content
 
 Pages are plain Markdown with a few mdbook extras — card grids (`{.card-grid}`),
-callout blockquotes (`> … {.is-info}`), and more. Add a page by creating its `.md` file
-under `source/` and linking it from [`source/SUMMARY.md`](../source/SUMMARY.md); add its
-Lithuanian version under `source/lt/`. See the
+callout blockquotes (`> … {.is-info}`), and more. To add a page: create
+`source/pages/<slug>.md` for each language, add a node to
+[`source/pages.json`](../source/pages.json) with its per-language `contents`, and (for a
+new top-level menu entry) update `nav`/`locales` in the config. See the
 [mdbook documentation](https://github.com/igorboss/mdbook) for the full syntax.
 
 ## License

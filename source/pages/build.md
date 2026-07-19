@@ -1,51 +1,51 @@
 # Builds
 
-- ![](/.gitbook/assets/base.png)
+- ![](/attachments/img/base.png)
   ### LT Base
   Core Lithuanian FHIR Implementation Guide with foundational profiles and terminology.
   [Latest Build](https://build.fhir.org/ig/HL7LT/ig-lt-base){.button}
   [History](https://hl7.lt/fhir/base/history.html){.button .secondary}
-- ![](/.gitbook/assets/vitalsigns.png)
+- ![](/attachments/img/vitalsigns.png)
   ### Vital Signs
   Standardized observation structures for clinical vital signs data.
   [Latest Build](https://build.fhir.org/ig/HL7LT/ig-lt-vitalsigns){.button}
   [History](https://hl7.lt/fhir/vitalsigns/history.html){.button .secondary}
-- ![](/.gitbook/assets/lab.png)
+- ![](/attachments/img/lab.png)
   ### LT Pathology
   Standardized Pathological laboratory observations and results.
   [Latest Build](https://build.fhir.org/ig/HL7LT/ig-lt-lab/en/){.button}
   [History](#){.button .secondary .disabled}
-- ![](/.gitbook/assets/lifestyle.png)
+- ![](/attachments/img/lifestyle.png)
   ### Life Style
   Guidelines for lifestyle-related health indicators and patient records.
   [Latest Build](https://build.fhir.org/ig/HL7LT/ig-lt-lifestyle){.button}
   [History](https://hl7.lt/fhir/lifestyle/history.html){.button .secondary}
-- ![](/.gitbook/assets/cvd.png)
+- ![](/attachments/img/cvd.png)
   ### CVD
   FHIR Implementation Guide for cardiovascular risk assessment, screening, care planning, and related structured clinical data.
   [Latest Build](https://build.fhir.org/ig/HL7LT/ig-lt-cvd){.button}
-- ![](/.gitbook/assets/breast.png)
+- ![](/attachments/img/breast.png)
   ### Breast Diagnostic
   FHIR Implementation Guide supporting breast diagnostics and structured clinical data.
   [Latest Build](https://build.fhir.org/ig/HL7LT/ig-lt-breast){.button}
   [History](https://hl7.lt/fhir/breast/history.html){.button .secondary}
-- ![](/.gitbook/assets/prostate.png)
+- ![](/attachments/img/prostate.png)
   ### Prostate Cancer
   FHIR Implementation Guide supporting prostate diagnostics and structured clinical data.
   [Latest Build](https://build.fhir.org/ig/HL7LT/ig-lt-prostate){.button}
-- ![](/.gitbook/assets/lungs.png)
+- ![](/attachments/img/lungs.png)
   ### Lung Cancer
   FHIR Implementation Guide for structured lung cancer diagnostics and care pathways.
   [Latest Build](https://build.fhir.org/ig/HL7LT/ig-lt-lung){.button}
-- ![](/.gitbook/assets/cervical.png)
+- ![](/attachments/img/cervical.png)
   ### Cervical Cancer
   FHIR profiles supporting cervical cancer screening and diagnostic workflows.
   [Latest Build](https://build.fhir.org/ig/HL7LT/ig-lt-cervical){.button}
-- ![](/.gitbook/assets/colorectal.png)
+- ![](/attachments/img/colorectal.png)
   ### Colorectal Cancer
   FHIR Implementation Guide for colorectal cancer screening, diagnostics, and reporting.
   [Latest Build](https://build.fhir.org/ig/HL7LT/ig-lt-colorectal){.button}
-- ![](/.gitbook/assets/eu.png)
+- ![](/attachments/img/eu.png)
   ### European Profiles
   Copy of European unpublished profiles.
   [Latest Build](https://build.fhir.org/ig/HL7LT/ig-eu-ehds){.button}

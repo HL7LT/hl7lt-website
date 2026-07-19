@@ -1,11 +1,8 @@
 # Bendruomenė
 
-**HL7 Lietuvos bendruomenė** vienija sveikatos priežiūros specialistus, kūrėjus ir
-institucijas, kartu dirbančius skaitmeninės sveikatos sąveikumo labui naudojant
-HL7 FHIR® standartą.
+**HL7 Lietuvos bendruomenė** vienija sveikatos priežiūros specialistus, kūrėjus ir institucijas, kartu dirbančius skaitmeninės sveikatos sąveikumo labui naudojant HL7 FHIR® standartą.
 
-Tikime atviru bendradarbiavimu, skaidrumu ir bendra pažanga — viskas, ką kuriame,
-yra atvirojo kodo ir bendruomenės valdoma.
+Tikime atviru bendradarbiavimu, skaidrumu ir bendra pažanga — viskas, ką kuriame, yra atvirojo kodo ir bendruomenės valdoma.
 
 ---
 

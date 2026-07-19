@@ -1,11 +1,8 @@
 # Community
 
-The **HL7 Lithuania Community** unites healthcare professionals, developers, and
-institutions working together to advance digital health interoperability using the
-HL7 FHIR® standard.
+The **HL7 Lithuania Community** unites healthcare professionals, developers, and institutions working together to advance digital health interoperability using the HL7 FHIR® standard.
 
-We believe in open collaboration, transparency, and shared progress — everything we
-build is open source and community-driven.
+We believe in open collaboration, transparency, and shared progress — everything we build is open source and community-driven.
 
 ---
 

@@ -6,8 +6,9 @@ site:
   base: /
 
 source:
-  format: gitbook
-  root: source          # content lives under source/ (source/README.md, source/lt/…)
+  format: termx         # TermX Wiki layout: space.json + pages.json + source/pages/*.md
+  meta: source          # space.json + pages.json + attachments/ live under source/
+  pages: source/pages   # page markdown, one file per language content (by slug)
 
 theme:
   skin: hl7lt
@@ -24,6 +25,20 @@ nav:
     link: /terminology
   - text: Community
     link: /community
+
+# Lithuanian menu (TermX uses per-language slugs, so LT routes differ from EN).
+locales:
+  lt:
+    label: Lietuvių
+    nav:
+      - text: Pradžia
+        link: /lt/
+      - text: Versijos
+        link: /lt/versijos
+      - text: Terminologija
+        link: /lt/terminologija
+      - text: Bendruomenė
+        link: /lt/bendruomene
 
 # Site footer, shown on every page.
 footer:

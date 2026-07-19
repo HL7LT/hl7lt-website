@@ -1,0 +1,30 @@
+[
+  {
+    "code": "home",
+    "contents": [
+      { "name": "HL7 Lithuania Registry", "slug": "home", "lang": "en" },
+      { "name": "HL7 Lietuvos registras", "slug": "pradzia", "lang": "lt" }
+    ]
+  },
+  {
+    "code": "build",
+    "contents": [
+      { "name": "Builds", "slug": "build", "lang": "en" },
+      { "name": "Versijos", "slug": "versijos", "lang": "lt" }
+    ]
+  },
+  {
+    "code": "terminology",
+    "contents": [
+      { "name": "Terminology", "slug": "terminology", "lang": "en" },
+      { "name": "Terminologija", "slug": "terminologija", "lang": "lt" }
+    ]
+  },
+  {
+    "code": "community",
+    "contents": [
+      { "name": "Community", "slug": "community", "lang": "en" },
+      { "name": "Bendruomenė", "slug": "bendruomene", "lang": "lt" }
+    ]
+  }
+]
