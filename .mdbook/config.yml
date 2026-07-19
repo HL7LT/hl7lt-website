@@ -1,0 +1,35 @@
+site:
+  title: HL7 Lithuania Registry
+  description: National HL7® FHIR® Implementation Guide Registry for Lithuania
+  lang: en
+  url: https://hl7.lt
+  base: /
+
+source:
+  format: gitbook
+
+theme:
+  skin: hl7lt
+
+search: true
+
+# Top navigation (mirrors the source site's menu).
+nav:
+  - text: Home
+    link: /
+  - text: Builds
+    link: /build
+  - text: Terminology
+    link: /terminology
+  - text: Community
+    link: /community
+
+# Site footer, shown on every page.
+footer:
+  message: Open source · Collaborative · Interoperable
+  copyright: >-
+    © 2026 HL7 Lithuania Registry · Maintained by
+    <a href="https://github.com/HL7LT">HL7 Lithuania</a>
+
+build:
+  out: .mdbook/dist
