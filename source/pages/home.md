@@ -2,9 +2,9 @@
 
 National HL7® FHIR® Implementation Guide Registry for Lithuania
 
-<img src="/attachments/img/lt-heather.png" alt="HL7 Lithuania" class="hl7lt-hero-img">
-
 ## Welcome to the HL7 Lithuania Registry
+
+<img src="/attachments/img/lt-heather.png" alt="HL7 Lithuania" class="hl7lt-hero-img">
 
 The **HL7 Lithuania Registry** is the national hub for HL7® FHIR® Implementation Guides, terminology resources, and community collaboration.
 
