@@ -7,6 +7,7 @@ site:
 
 source:
   format: gitbook
+  root: source          # content lives under source/ (source/README.md, source/lt/…)
 
 theme:
   skin: hl7lt
