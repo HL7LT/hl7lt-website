@@ -23,7 +23,7 @@ jobs:
       - uses: actions/checkout@v4
       - id: mdbook
         # Pinned to a mdbook release tag for deterministic builds.
-        uses: helex-solutions/mdbook@v1.1.2
+        uses: helex-solutions/mdbook@v1.2.0
         with:
           project: .
       - uses: actions/configure-pages@v5
