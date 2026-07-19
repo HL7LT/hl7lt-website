@@ -2,9 +2,9 @@
 
 Nacionalinis HL7® FHIR® diegimo vadovų registras Lietuvai
 
-<img src="/attachments/img/lt-heather.png" alt="HL7 Lithuania" class="hl7lt-hero-img">
-
 ## Sveiki atvykę į HL7 Lietuvos registrą
+
+<img src="/attachments/img/lt-heather.png" alt="HL7 Lithuania" class="hl7lt-hero-img">
 
 **HL7 Lietuvos registras** yra nacionalinis centras HL7® FHIR® diegimo vadovams, terminologijos ištekliams ir bendruomenės bendradarbiavimui.
 
