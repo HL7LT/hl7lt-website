@@ -6,7 +6,7 @@ site:
   base: /
 
 source:
-  format: termx         # TermX Wiki layout: space.json + pages.json + source/pages/*.md
+  format: owliki        # Owliki wiki layout: space.json + pages.json + source/pages/*.md
   meta: source          # space.json + pages.json + attachments/ live under source/
   pages: source/pages   # page markdown, one file per language content (by slug)
 
